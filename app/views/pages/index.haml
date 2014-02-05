@@ -1,0 +1,30 @@
+#beers{"ng-controller" => "BeersCtrl as beers"}
+  .row
+    .small-6.columns
+      %h1 Beers
+    .small-6.columns.text-right
+  
+  .row
+    .small-12.columns
+      %input{"ng-model" => "beers.newBeer.name", placeholder: 'Name'}
+    .small-12.columns
+      %input{"ng-model" => "beers.newBeer.description", placeholder: "Description"}
+    .small-12.columns
+      %input{"ng-model" => "beers.newBeer.brewery.name", placeholder: "Brewery"}
+    .small-12.columns
+      %button.right{"ng-click" => "beers.addBeer()"} Add Beer
+
+  .panel
+    .row
+      .small-12.columns
+        .panel{"ng-repeat" => "beer in beers.all"}
+          %button.right.red{"ng-click" => "beers.destroy(beer.id)"} Delete
+          %p
+            %strong Name:
+            {{beer.name}}
+          %p 
+            %strong Flavor:
+            {{beer.description}}
+          %p 
+            %strong From: 
+            {{beer.brewery.name}}

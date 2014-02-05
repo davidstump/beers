@@ -1,0 +1,3 @@
+asset "jquery-ujs"
+asset "foundation"
+asset "angularjs-rails-resource"

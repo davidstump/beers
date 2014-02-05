@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: beers_development
+  pool: 5
+  username: david
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: beers_test
+  pool: 5
+  username: david
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: beers_development
+  pool: 5
+  username: david
+  password:

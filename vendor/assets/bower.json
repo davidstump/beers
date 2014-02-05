@@ -1,0 +1,8 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "jquery-ujs": "latest",
+    "foundation": "latest",
+    "angularjs-rails-resource": "latest"
+  }
+}
