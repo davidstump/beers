@@ -7,14 +7,13 @@ class BeersCtrl extends @NGController
   ]
 
   init: ->
-    @showForm = false
     @loadBeers()
 
   loadBeers: ->
     @Beer.query().then (results) =>
       @all = results
 
-  addBeer: ->
+  create: ->
     new @Beer(@newBeer).create().then (results) =>
       @loadBeers()
 
