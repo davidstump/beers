@@ -16565,3 +16565,695 @@ Processing by BeersController#index as JSON
   [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
   [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
 Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 12:24:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (5.3ms)
+Completed 200 OK in 149ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:19 -0500
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-13 12:24:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 12:24:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:20 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:20 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-13 12:24:21 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[35mBeer Load (1.8ms)[0m  SELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC
+  [1m[36mBrewery Load (5.3ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 15]]
+  [1m[35mBrewery Load (0.4ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 14]]
+  [1m[36mBrewery Load (0.3ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mBrewery Load (0.4ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mBrewery Load (0.3ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 69ms (Views: 57.5ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (5.0ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-13 12:24:29 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[36mBeer Load (0.5ms)[0m  [1mSELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC[0m
+  [1m[35mBrewery Load (0.3ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 15]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 14]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/bower_components/angular/angular.min.js.map" for 127.0.0.1 at 2014-02-13 12:24:38 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+
+
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js.map" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-13 12:24:49 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[35mBeer Load (0.5ms)[0m  SELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 15]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 14]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 12:25:29 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (3.7ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 12:25:29 -0500
+
+
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:29 -0500
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-13 12:25:29 -0500
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:29 -0500
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:29 -0500
+
+
+
+
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+
+
+
+
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+
+
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js.map" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-13 12:25:30 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[36mBeer Load (0.5ms)[0m  [1mSELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC[0m
+  [1m[35mBrewery Load (0.3ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 15]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 14]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (31.0ms)
+Completed 200 OK in 37ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js.map" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-13 12:38:52 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[35mBeer Load (0.4ms)[0m  SELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC
+  [1m[36mBrewery Load (1.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 15]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 14]]
+  [1m[36mBrewery Load (0.1ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mBrewery Load (0.1ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mBrewery Load (0.1ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (3.7ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+
+
+Started GET "/assets/bower_components/angular/angular.min.js.map" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-13 12:39:07 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[36mBeer Load (0.4ms)[0m  [1mSELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC[0m
+  [1m[35mBrewery Load (0.3ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 15]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 14]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-14 15:09:50 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (5.6ms)
+Completed 200 OK in 323ms (Views: 322.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:51 -0500
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:52 -0500
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-14 15:09:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:52 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-14 15:09:52 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-14 15:09:52 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[35mBeer Load (8.1ms)[0m  SELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC
+  [1m[36mBrewery Load (4.4ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 15]]
+  [1m[35mBrewery Load (0.4ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 14]]
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mBrewery Load (0.3ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 53ms (Views: 37.1ms | ActiveRecord: 30.3ms)
+
+
+Started GET "/assets/bower_components/angular/angular.min.js.map" for 127.0.0.1 at 2014-02-14 15:09:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-19 21:10:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (6.7ms)
+Completed 200 OK in 490ms (Views: 489.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-19 21:10:59 -0500
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-19 21:10:59 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-19 21:10:59 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-19 21:10:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-19 21:10:59 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-19 21:11:00 -0500
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-19 21:11:00 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-19 21:11:00 -0500
+
+
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-19 21:11:01 -0500
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-19 21:11:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-19 21:11:01 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-19 21:11:01 -0500
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-19 21:11:01 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-19 21:11:01 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[35mBeer Load (1.8ms)[0m  SELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC
+  [1m[36mBrewery Load (5.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 15]]
+  [1m[35mBrewery Load (0.4ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 14]]
+  [1m[36mBrewery Load (0.3ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mBrewery Load (0.3ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 43ms (Views: 32.8ms | ActiveRecord: 12.3ms)
+
+
+Started POST "/beers" for 127.0.0.1 at 2014-02-19 21:11:15 -0500
+Processing by BeersController#create as JSON
+  Parameters: {"beer"=>{"name"=>"Goose Island IPA", "description"=>"Hoppy Goodness"}}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.2ms)[0m  INSERT INTO "beers" ("created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Thu, 20 Feb 2014 02:11:15 UTC +00:00], ["description", "Hoppy Goodness"], ["name", "Goose Island IPA"], ["updated_at", Thu, 20 Feb 2014 02:11:15 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-19 21:11:15 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[35mBeer Load (0.4ms)[0m  SELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC
+  [1m[36mBrewery Load (0.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 15]]
+  [1m[35mBrewery Load (0.1ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 14]]
+  [1m[36mBrewery Load (0.1ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mBrewery Load (0.1ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mBrewery Load (0.1ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/beers" for 127.0.0.1 at 2014-02-19 21:18:46 -0500
+Processing by BeersController#create as JSON
+  Parameters: {"beer"=>{"name"=>"Goose Island IPA", "description"=>"Hoppy Goodness", "brewery_attributes"=>{"name"=>"Goose Island"}}}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "breweries" ("created_at", "name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", Thu, 20 Feb 2014 02:18:46 UTC +00:00], ["name", "Goose Island"], ["updated_at", Thu, 20 Feb 2014 02:18:46 UTC +00:00]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "beers" ("brewery_id", "created_at", "description", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["brewery_id", 23], ["created_at", Thu, 20 Feb 2014 02:18:46 UTC +00:00], ["description", "Hoppy Goodness"], ["name", "Goose Island IPA"], ["updated_at", Thu, 20 Feb 2014 02:18:46 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-19 21:18:46 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[36mBeer Load (0.3ms)[0m  [1mSELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC[0m
+  [1m[35mBrewery Load (0.2ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 23]]
+  [1m[36mBrewery Load (0.1ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 15]]
+  [1m[35mBrewery Load (0.1ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 14]]
+  [1m[36mBrewery Load (0.1ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mBrewery Load (0.1ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mBrewery Load (0.1ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-24 22:06:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.haml within layouts/application (11.7ms)
+Completed 200 OK in 199ms (Views: 198.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:45 -0500
+
+
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:46 -0500
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:06:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:46 -0500
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:46 -0500
+
+
+Started GET "/beers" for 127.0.0.1 at 2014-02-24 22:06:47 -0500
+Processing by BeersController#index as JSON
+  Parameters: {"beer"=>{}}
+  [1m[35mBeer Load (2.1ms)[0m  SELECT "beers".* FROM "beers" ORDER BY "beers"."created_at" DESC
+  [1m[36mBrewery Load (29.2ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 23]]
+  [1m[35mBrewery Load (0.6ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 15]]
+  [1m[36mBrewery Load (0.3ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 14]]
+  [1m[35mBrewery Load (0.6ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mBrewery Load (0.6ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mBrewery Load (0.7ms)[0m  SELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "breweries".* FROM "breweries" WHERE "breweries"."id" = $1 ORDER BY "breweries"."id" ASC LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 156ms (Views: 117.8ms | ActiveRecord: 39.7ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+Processing by PagesController#demo as HTML
+  Rendered pages/demo.haml within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+
+
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:50 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:06:51 -0500
+
+
+Started GET "/demo" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+Processing by PagesController#demo as HTML
+  Rendered pages/demo.haml within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+
+
+
+
+Started GET "/assets/bower_components/foundation/scss/foundation.css?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+Started GET "/assets/bower_components/jquery-ujs/src/rails.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+
+
+Started GET "/assets/bower_components/jquery/jquery.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+Started GET "/assets/bower_components/foundation/js/foundation.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+
+
+
+
+
+Started GET "/assets/ng-helpers.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+Started GET "/assets/bower_components/angularjs-rails-resource/angularjs-rails-resource.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+
+
+
+Started GET "/assets/controllers/beers_ctrl.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+Started GET "/assets/bower_components/angularjs-rails-resource/extensions/snapshots.min.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+
+Started GET "/assets/models/beer.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-24 22:07:51 -0500
+
+
+Started GET "/assets/bower_components/angular/angular.min.js.map" for 127.0.0.1 at 2014-02-24 22:14:31 -0500
